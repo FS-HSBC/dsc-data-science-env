@@ -328,6 +328,7 @@ Next, try activating the environment. Whether you're on a Mac or using git bash 
 To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env
 
 #### Troubleshooting
+
 If you see a message that states “WARNING: A newer version of Conda exists”, run `conda update -n base conda` and then try again to create the environment using `conda env create -f environment.yml`.
 
 If you see a message that states "file not found", double check that you are running this command from the directory that contains the .yml file. If you type `ls` you should see the .yml file. If you don't see it you likely forgot to run `cd dsc-data-science-env` to change into the right directory.
