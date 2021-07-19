@@ -5,10 +5,12 @@
 If you might want to become a professional data scientist, it’s important to take a little time to “set yourself up for success” by installing and learning to use the right tools on your computer. If you already have Git and Anaconda installed, feel free to jump down to the cloning, virtual environment setup and testing towards the bottom of the page.
 
 ## Objectives
+
 You will be able to:
 * Install a professional data science environment
 
 ## What Tools do Professional Data Scientists Use?
+
 * **Python** - There are many languages that can be used for data science, but these days most data scientists are using Python to write their code.
 * **Jupyter Notebook** - Most of those data scientists use Jupyter Notebook for writing their Python. Jupyter Notebook is a tool that allows you to mix comments in-between your code snippets so you can document and share your thinking process and make it easier for others to review, replicate and expand on your work. It's also what we're using for almost all of our lessons in this course!
 * **Anaconda** - Anaconda is one of the most popular ways for data scientists to install Python and Jupyter Notebook on their computers. It also provides package management and virtual environments so you can get all the latest data science tools running like NumPy, SciPy, and Tensorflow, and so you can use different versions of Python and your packages for different projects without them conflicting with each other.
@@ -27,8 +29,7 @@ Assuming you have a computer that meets the requirements, let’s start by getti
 ## Installing Git
 For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
 
-<details>
-<summary>Windows</summary>
+**Windows**
 Go [here](https://git-scm.com/download/win). Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
 
 It is strongly suggested that you select any options to install and use the "Git Bash" shell, it's generally included by default. In short, the Git Bash shell will allow students with either Windows or Mac computers to run the same set of commands.
@@ -69,10 +70,8 @@ And then wait while Git is installed onto your computer.
 Finally, click finish to complete setup
 
 ![screen-8](http://curriculum-content.s3.amazonaws.com/data-science/screen-8.png)
-</details>
 
-<details>
-<summary>Mac</summary>
+**Mac**
 If you are comfortable with the command line and have installed [homebrew](https://brew.sh/), you should install Git by running the command `brew install git` in a terminal window.  
 
 If you have no idea what the last paragraph meant, just go [here](https://git-scm.com/download/mac). Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
@@ -118,8 +117,7 @@ If it returns your email address, you’re set! If it returns nothing or display
 
 The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. Let’s go through the install instructions  for the two most common operating systems - Windows and MacOS.
 
-<details>
-<summary>Windows</summary>
+**Windows**
 Go [here](https://www.anaconda.com/download/#windows) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
 
 ![screen-15](http://curriculum-content.s3.amazonaws.com/data-science/screen-15.png)
@@ -167,9 +165,8 @@ It’ll open up a browser window which you can just close down.
 ![screen-25](http://curriculum-content.s3.amazonaws.com/data-science/screen-25.png)
 
 And that’s the process of installing Anaconda. The next step is to test your installation.
-</details>
 
-<details><summary>Mac</summary>
+**Mac**
 Go [here](https://www.anaconda.com/download/#macos) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
 
 ![screen-26](http://curriculum-content.s3.amazonaws.com/data-science/screen-26.png)
@@ -225,17 +222,15 @@ You should then see a final window informing you that the software was installed
 If you’re asked whether you’d like to move the installer to trash, click the “Move to trash” button.
 
 <img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-39.png' width="600">
-</details>
 
 ## Testing your installation
 
-<details><summary>Windows</summary>
+**Windows**
 To test your installation, on Windows, click on Start and then Anaconda Navigator in the program list (or search for Anaconda in the search bar and select Anaconda Navigator).
-</details>
 
-<details><summary>Mac</summary>
+
+**Mac**
 On a Mac, open up the finder, and in the Applications folder, double click on Anaconda-Navigator.
-</details>
 
 From now on, screenshots will be from a Mac, but we’ll highlight any material differences in the experience between the OS’s.
 
@@ -337,16 +332,14 @@ If you see a message that states "file not found", double check that you are run
 
 You have successfully created your virtual environment! To be sure that you are using the learn-env it's helpful to set it as your default environment so that you don't need to remember to manually switch to it every time you open terminal. This step is suggested but not required.
 
-<details>
-<summary>Mac</summary>
+**Mac**
 On a Mac, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
-</details>
 
-<details>
-<summary>Windows</summary>
+
+**Windows**
 To follow these instructions on a Windows machine you must be using the Git Bash shell it was suggested to install above.
 Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
-</details>
+
 
 ## Updating your Virtual Environment
 
