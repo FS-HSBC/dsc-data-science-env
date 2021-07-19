@@ -344,6 +344,7 @@ Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activat
 ## Updating your Virtual Environment
 
 Every so often we create new versions of the virtual environment and we'll ask you to update your virtual environment. To do that, download the latest version of this repository with the latest changes. Then go into a terminal window and:
+
 ```
 conda activate base # To make sure you're not in the learn-env environment
 conda remove -n learn-env --all # To get rid of the environment
@@ -353,7 +354,6 @@ conda env list # Make sure it doesn't list learn-env - if it does, try the last 
 conda env create -f environment.yml
 # Or in Windows
 conda env create -f windows.yml
-
 ```
 
 ## Configuring your Kernel
