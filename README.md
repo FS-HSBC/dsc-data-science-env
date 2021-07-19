@@ -259,7 +259,7 @@ And select “Python 3” from the drop-down list.
 
 When you do, you’ll see a new notebook in your browser window that looks something like this:
 
-<img src='./images/new_notebook.png' width="650">
+<img src='https://raw.githubusercontent.com/FS-HSBC/dsc-data-science-env/master/images/new_notebook.png' width="650">
 
 To make sure it’s working, click in the cell and type the following:
 
