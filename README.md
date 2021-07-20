@@ -7,6 +7,7 @@ If you might want to become a professional data scientist, it’s important to t
 ## Objectives
 
 You will be able to:
+
 * Install a professional data science environment
 
 ## What Tools do Professional Data Scientists Use?
