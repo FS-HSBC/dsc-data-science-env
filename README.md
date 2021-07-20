@@ -2,6 +2,7 @@
 # Setting up a Professional Data Science Environment
 
 ## Introduction
+
 If you might want to become a professional data scientist, it’s important to take a little time to "set yourself up for success" by installing and learning to use the right tools on your computer. If you already have Git and Anaconda installed, feel free to jump down to the cloning, virtual environment setup and testing towards the bottom of the page.
 
 ## Objectives
@@ -28,6 +29,7 @@ You’re going to need a computer (laptop or desktop). It should be running a re
 Assuming you have a computer that meets the requirements, let’s start by getting git Installed.
 
 ## Installing Git
+
 For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
 
 ### Windows
@@ -51,7 +53,6 @@ When asked to adjust your PATH environment, either of the first two options is f
 For https, you should select the "use the OpenSSL library" option.
 
 ![screen-3](http://curriculum-content.s3.amazonaws.com/data-science/screen-3.png)
-
 
 Select the default option for handling line endings
 
@@ -79,28 +80,25 @@ If you are comfortable with the command line and have installed [homebrew](https
 
 If you have no idea what the last paragraph meant, just go [here](https://git-scm.com/download/mac). Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
 
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-10.png' width="750">
+![git install](http://curriculum-content.s3.amazonaws.com/data-science/screen-10.png)
 
 Double click on the .pkg file to run it. When you try to do that you might get a security warning pop up that looks something like this:
 
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-11.png' width="550">
+![git install](http://curriculum-content.s3.amazonaws.com/data-science/screen-11.png)
 
 If that happens, just click on the apple at the top left of the screen, select "system preferences" from the drop-down menu. Then select "Security and Privacy", select the "General" tag, click on the lock to make changes at the bottom of the window (you’ll have to enter your password). Below the "Allow apps downloaded from” option, you should see a message stating that an app was blocked from opening. (If you don’t see this message, double click on the .pkg file again and then look back at the Security & Privacy screen and it should pop up).  Click the "open anyway" button.
 
 You should then see a message confirming whether you really want to open the app.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-12.png' width="550">
+![git install](http://curriculum-content.s3.amazonaws.com/data-science/screen-12.png)
 
 Click on the "open" button. You should then see an installer screen.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-13.png' width="650">
+![git install](http://curriculum-content.s3.amazonaws.com/data-science/screen-13.png)
 
 Click "continue", then "install", enter your password when prompted, and when the installation is complete, click the "close" button.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-14.png' width="650">
-</details>
+![successful git install](http://curriculum-content.s3.amazonaws.com/data-science/screen-14.png)
 
 ## Confirming your git installation (all OS’s)
 
@@ -230,11 +228,11 @@ If you’re asked whether you’d like to move the installer to trash, click the
 
 ## Testing your installation
 
-### Windows
+### Windows - test installation
 
 To test your installation, on Windows, click on Start and then Anaconda Navigator in the program list (or search for Anaconda in the search bar and select Anaconda Navigator).
 
-### Mac
+### Mac - test installation
 
 On a Mac, open up the finder, and in the Applications folder, double click on Anaconda-Navigator.
 
@@ -246,11 +244,11 @@ The Anaconda Navigator is one of the ways you’ll be able to run Jupyter Notebo
 
 On a Mac, you’ll see a terminal window pop up.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-41.png' width="600">
+![terminal window](http://curriculum-content.s3.amazonaws.com/data-science/screen-41.png)
 
 On both Windows and a Mac, you’ll see a window in your web browser that allows you to open existing Jupyter notebooks or create a new one.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-42.png' width="1000">
+![jupyter notebooks](http://curriculum-content.s3.amazonaws.com/data-science/screen-42.png)
 
 Click on the "New" button in the top right corner.
 
@@ -260,30 +258,28 @@ And select "Python 3" from the drop-down list.
 
 When you do, you’ll see a new notebook in your browser window that looks something like this:
 
-<img src='https://raw.githubusercontent.com/FS-HSBC/dsc-data-science-env/master/images/new_notebook.png' width="650">
+![juptyer notebooks](https://raw.githubusercontent.com/FS-HSBC/dsc-data-science-env/master/images/new_notebook.png)
 
 To make sure it’s working, click in the cell and type the following:
 
-```
+```python
 import sys
 print(sys.version)
 ```
 
 It should look like this:
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-43.png' width="650">
-
+![jupyter notebooks](http://curriculum-content.s3.amazonaws.com/data-science/screen-43.png)
 
 Then hold down the shift key and hit enter to run the code in the cell. You should see an output something like this.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-45.png' width="600">
+![terminal window](http://curriculum-content.s3.amazonaws.com/data-science/screen-45.png)
 
 Don’t worry if the version number or date is slightly different. If you get a similar output (something that isn’t an error message), congratulations! You’ve got Anaconda, Python and the Jupyter notebook installed successfully!
 
 To shut down Jupyter notebook, just close the tabs in your browser containing the notebook and the list of notebooks. On a Mac, you should also click on the terminal window and hit "ctrl-C" to close the notebook.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-46.png' width="600">
-
+![terminal window](http://curriculum-content.s3.amazonaws.com/data-science/screen-46.png)
 
 You’ll then have to hit "y" and return to confirm that you want to close down Jupyter notebook.
 
@@ -322,14 +318,14 @@ You need to start by navigating into the root of this project folder, so you’r
 
 Then to create the environment, on a mac, type `conda env create -f environment.yml`. On windows, type `conda env create -f windows.yml`. Depending on the speed of your computer and your internet connection it may take up to five minutes for this to complete. While it does you should see output similar to that displayed below start to appear in your terminal.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-47.png' width="750">
+![terminal window](http://curriculum-content.s3.amazonaws.com/data-science/screen-47.png)
 
 Next, try activating the environment. Whether you're on a Mac or using git bash on a windows machine, type `conda activate learn-env` (if you have an issue with running git bash, the command to activate Conda within the Conda shell on windows is `activate learn-env`).
 
 To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with 
 `/learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env`
 
-#### Troubleshooting
+### Troubleshooting
 
 If you see a message that states "WARNING: A newer version of Conda exists", run `conda update -n base conda` and then try again to create the environment using `conda env create -f environment.yml`.
 
@@ -339,11 +335,11 @@ If you see a message that states "file not found", double check that you are run
 
 You have successfully created your virtual environment! To be sure that you are using the learn-env it's helpful to set it as your default environment so that you don't need to remember to manually switch to it every time you open terminal. This step is suggested but not required.
 
-### Mac
+### Mac - default environment
 
 On a Mac, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
 
-### Windows
+### Windows - default environment
 
 To follow these instructions on a Windows machine you must be using the Git Bash shell it was suggested to install above.
 Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
@@ -353,7 +349,7 @@ Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activat
 
 Every so often we create new versions of the virtual environment and we'll ask you to update your virtual environment. To do that, download the latest version of this repository with the latest changes. Then go into a terminal window and:
 
-```
+```python
 conda activate base # To make sure you're not in the learn-env environment
 conda remove -n learn-env --all # To get rid of the environment
 conda env list # Make sure it doesn't list learn-env - if it does, try the last step again
