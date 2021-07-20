@@ -326,7 +326,7 @@ Then to create the environment, on a mac, type `conda env create -f environment.
 
 Next, try activating the environment. Whether you're on a Mac or using git bash on a windows machine, type `conda activate learn-env` (if you have an issue with running git bash, the command to activate Conda within the Conda shell on windows is `activate learn-env`).
 
-To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env
+To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with `/learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env`
 
 #### Troubleshooting
 
@@ -338,11 +338,12 @@ If you see a message that states "file not found", double check that you are run
 
 You have successfully created your virtual environment! To be sure that you are using the learn-env it's helpful to set it as your default environment so that you don't need to remember to manually switch to it every time you open terminal. This step is suggested but not required.
 
-**Mac**
+### Mac
+
 On a Mac, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
 
+### Windows
 
-**Windows**
 To follow these instructions on a Windows machine you must be using the Git Bash shell it was suggested to install above.
 Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
 
