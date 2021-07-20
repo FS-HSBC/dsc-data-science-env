@@ -30,7 +30,8 @@ Assuming you have a computer that meets the requirements, let’s start by getti
 ## Installing Git
 For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
 
-**Windows**
+### Windows
+
 Go [here](https://git-scm.com/download/win). Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
 
 It is strongly suggested that you select any options to install and use the "Git Bash" shell, it's generally included by default. In short, the Git Bash shell will allow students with either Windows or Mac computers to run the same set of commands.
@@ -72,7 +73,8 @@ Finally, click finish to complete setup
 
 ![screen-8](http://curriculum-content.s3.amazonaws.com/data-science/screen-8.png)
 
-**Mac**
+### Mac
+
 If you are comfortable with the command line and have installed [homebrew](https://brew.sh/), you should install Git by running the command `brew install git` in a terminal window.  
 
 If you have no idea what the last paragraph meant, just go [here](https://git-scm.com/download/mac). Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
@@ -118,7 +120,8 @@ If it returns your email address, you’re set! If it returns nothing or display
 
 The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. Let’s go through the install instructions  for the two most common operating systems - Windows and MacOS.
 
-**Windows**
+### Windows
+
 Go [here](https://www.anaconda.com/download/#windows) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
 
 ![screen-15](http://curriculum-content.s3.amazonaws.com/data-science/screen-15.png)
@@ -167,7 +170,8 @@ It’ll open up a browser window which you can just close down.
 
 And that’s the process of installing Anaconda. The next step is to test your installation.
 
-**Mac**
+### Mac
+
 Go [here](https://www.anaconda.com/download/#macos) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
 
 ![screen-26](http://curriculum-content.s3.amazonaws.com/data-science/screen-26.png)
@@ -226,11 +230,12 @@ If you’re asked whether you’d like to move the installer to trash, click the
 
 ## Testing your installation
 
-**Windows**
+### Windows
+
 To test your installation, on Windows, click on Start and then Anaconda Navigator in the program list (or search for Anaconda in the search bar and select Anaconda Navigator).
 
+### Mac
 
-**Mac**
 On a Mac, open up the finder, and in the Applications folder, double click on Anaconda-Navigator.
 
 From now on, screenshots will be from a Mac, but we’ll highlight any material differences in the experience between the OS’s.
