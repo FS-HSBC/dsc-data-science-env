@@ -343,7 +343,6 @@ On a Mac, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the co
 To follow these instructions on a Windows machine you must be using the Git Bash shell it was suggested to install above.
 Run `touch ~/.bash_profile` to create a new file. Next, run `echo "conda activate learn-env" >> ~/.bash_profile` to add the configuration to your bash profile and then run `source ~/.bash_profile` to activate the changes you just made.
 
-
 ## Updating your Virtual Environment
 
 Every so often we create new versions of the virtual environment and we'll ask you to update your virtual environment. To do that, download the latest version of this repository with the latest changes. Then go into a terminal window and:
