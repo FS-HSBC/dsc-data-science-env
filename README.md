@@ -22,6 +22,7 @@ You will be able to:
 It’s going to take us a few minutes to get this all installed, but once we do, not only will you be set-up for working through the course, but you’ll also have a professional data science setup on your computer for any future courses or projects you want to work on!
 
 ## Computer Prerequisites
+
 There are many amazing computing devices available these days, but not all of them will allow you to do data science. We love smartphones, flip phones, Chromebooks, tablets (including iPads), game boys, Nintendo switches, roku’s and arduino’s. You’re not going to be able to complete this course on any of those devices - sorry.
 
 You’re going to need a computer (laptop or desktop). It should be running a recent (last 3-4 years) version of MacOS, Windows or Linux, and ideally, it should have 8Gb of RAM and at least 20Gb free hard drive space. More information [here](https://flatironschool.com/wp-content/uploads/Student-Facing-Computer-Requirements.pdf):
@@ -118,7 +119,7 @@ If it returns your email address, you’re set! If it returns nothing or display
 
 The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. Let’s go through the install instructions  for the two most common operating systems - Windows and MacOS.
 
-### Windows
+### Windows - installing Jupyer Notebook
 
 Go [here](https://www.anaconda.com/download/#windows) and click on the "download" button for the Python 3.x (currently 3.6) version of Anaconda.
 
@@ -168,7 +169,7 @@ It’ll open up a browser window which you can just close down.
 
 And that’s the process of installing Anaconda. The next step is to test your installation.
 
-### Mac
+### Mac - installing Jupyter Notebook
 
 Go [here](https://www.anaconda.com/download/#macos) and click on the "download" button for the Python 3.x (currently 3.6) version of Anaconda.
 
@@ -184,47 +185,47 @@ If you don’t see the file in your browser, you can also just open up the finde
 
 You’ll be informed that the package will run a program to see whether the software can be installed. Click "continue".
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-29.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-29.png)
 
 You’ll then see a wizard that will run you through the installation process. Click continue on the first screen.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-30.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-30.png)
 
 Then look at the read me, and click "continue" again.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-31.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-31.png)
 
 You’ll then need to accept the license. Start by clicking "continue"
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-32.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-32.png)
 
 And then click on "agree" in the dialog that comes up and asks you to accept the license.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-33.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-33.png)
 
 Then click on "install" to install the software.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-34.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-34.png)
 
 And you’ll have to enter an administrative username and password for your computer to finally install the software.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-35.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-35.png)
 
 The wizard will let you know next that it’s preparing the install, and then it’ll take a couple of minutes to install all of the necessary software.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-36.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-36.png)
 
 You’ll be given the option to install Microsoft VSCode. For now, you can skip that option by clicking "continue".
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-37.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-37.png)
 
 You should then see a final window informing you that the software was installed successfully. Click close to finish the installation.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-38.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-38.png)
 
 If you’re asked whether you’d like to move the installer to trash, click the "Move to trash" button.
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-39.png' width="600">
+![anaconda install](http://curriculum-content.s3.amazonaws.com/data-science/screen-39.png)
 
 ## Testing your installation
 
@@ -286,7 +287,6 @@ You’ll then have to hit "y" and return to confirm that you want to close down 
 ## Cloning this Repository
 
 To finish this setup process, you’re going to need to download a copy of the files in this repository. To do that, you need to start by opening a terminal window.
-
 
 If you’re on a Windows machine, select "Git Bash" from either the start menu or the search bar and it’ll open up a terminal (don’t use the default Windows terminal - it will not work for this).
 
